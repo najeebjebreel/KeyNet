@@ -29,4 +29,15 @@ The code supports training and evaluating on [CIFAR10](https://www.cs.toronto.ed
 ## Training and testing
 The hyperparameters, the training of the original task, the embedding of the watermark and the performing of the other experiments can be easily done using the jupyter notebook: `Experiments.IPYNB`.
 
+## Citation 
+If you find our work useful please cite: 
+
+## Funding
+This research was funded by the European Commission (projects H2020-871042 “SoBigData++” and
+603 H2020-101006879 "MobiDataLab), the Government of Catalonia (ICREA Acadèmia Prize to J. Domingo-Ferrer,
+604 FI grant to N. Jebreel and grant 2017 SGR 705), and the Spanish Government (projects RTI2018-095094-B-C21
+605 “Consent” and TIN2016-80250-R “Sec-MCloud”).
+
+
+
 
