@@ -6,7 +6,7 @@ This repository provides a PyTorch implementation of the paper KeyNet: An Asymme
 
 [KeyNet: An Asymmetric Key-Style Framework forWatermarking Deep Learning Models]
 </br>
-[Najeeb Moharram Jebreel](https://adiyoss.github.io/)<sup>1</sup>, [Josep Domingo-Ferrer](http://www.carstenbaum.com/)<sup>1</sup>, [David Sánchez](http://moustaphacisse.com/)<sup>1</sup>, [Alberto Blanco-Justicia](http://www.pinkas.net/)<sup>1</sup>
+[Najeeb Moharram Jebreel](https://crises-deim.urv.cat/)<sup>1</sup>, [Josep Domingo-Ferrer](https://crises-deim.urv.cat/)<sup>1</sup>, [David Sánchez](https://crises-deim.urv.cat/)<sup>1</sup>, [Alberto Blanco-Justicia](https://crises-deim.urv.cat/)<sup>1</sup>
 </br>
 <sup>1 </sup> Universitat Rovira i Virgili, Department of Computer Engineering and Mathematics, CYBERCAT-Center for
 Cybersecurity Research of Catalonia, UNESCO Chair in Data Privacy, Av. Països Catalans 26, 43007 Tarragona,
@@ -25,5 +25,8 @@ The code supports training and evaluating on [CIFAR10](https://www.cs.toronto.ed
 [Python 3.6](https://www.anaconda.com/download)
 
 [PyTorch 1.6](https://pytorch.org/)
+
+## Training and testing
+The hyperparameters, the training of the original task, the embedding of the watermark and the performing of the other experiments can be easily done using the jupyter notebook: `Experiments.IPYNB`.
 
 
