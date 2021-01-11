@@ -1,8 +1,5 @@
 # KeyNet
 
-
-The source code is under refinement, and will be uploaded soon to this repository.
-
 This repository provides a PyTorch implementation of the paper KeyNet: An Asymmetric Key-Style Framework forWatermarking Deep Learning Models. This repository provides scripts for watermarking neural networks by fine tuning a pre-trained model or by embedding the watermark from scratch.
 
 ## Paper 
@@ -15,3 +12,18 @@ This repository provides a PyTorch implementation of the paper KeyNet: An Asymme
 Cybersecurity Research of Catalonia, UNESCO Chair in Data Privacy, Av. Països Catalans 26, 43007 Tarragona,
 Catalonia
 </br>
+
+## Content
+The repository contains one main jupyter notebook: `Experiments.IPYNB` where you can train (with and without watermark), predict and fine-tune models. 
+
+Additionally, this repo contains some images from different distributions that used to embed the watermarks.
+
+The code supports training and evaluating on [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html) and [FMNIST5] datasets.
+
+## Dependencies
+
+[Python 3.6](https://www.anaconda.com/download)
+
+[PyTorch 1.6](https://pytorch.org/)
+
+
