@@ -14,7 +14,7 @@ Catalonia
 </br>
 
 ## Content
-The repository contains one main jupyter notebook: `Experiments.IPYNB` where you can train (with and without watermark), predict and fine-tune models. 
+The repository contains one main jupyter notebook: `Experiments.IPYNB` in each data set folder. These notebooks can be used to train (with and without watermark), predict, embed watermarks and fine-tune models. 
 
 Additionally, this repo contains some images from different distributions that used to embed the watermarks.
 
