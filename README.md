@@ -1,6 +1,6 @@
 # Watermarking Deep Learning Models
 
-This repository provides a PyTorch implementation of the paper KeyNet: An Asymmetric Key-Style Framework for Watermarking Deep Learning Models. The repository contains a primary version of the source code and the used models. The framework provides scripts for watermarking neural networks by fine tuning a pre-trained model or by embedding the watermark from scratch.
+This repository is a primary version of the source code and models of the paper KeyNet: An Asymmetric Key-Style Framework for Watermarking Deep Learning Models. The repository uses PyTorch to implement the experiments and provides scripts for watermarking neural networks by fine tuning a pre-trained model or by embedding the watermark from scratch.
 
 ## Paper 
 
