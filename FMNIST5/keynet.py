@@ -68,8 +68,6 @@ class KeyNet:
 
         self.wm_trainloader = torch.utils.data.DataLoader(self.wm_trainingset, batch_size=100, shuffle=True, num_workers=1)
         self.wm_testloader = torch.utils.data.DataLoader(self.wm_testingset, batch_size=100, shuffle=False, num_workers=1)
-        self.wm_blackboxtrainloader = torch.utils.data.DataLoader(self.wm_trainingset, batch_size=1, shuffle=True, num_workers=0)
-        self.wm_blackboxtestloader = torch.utils.data.DataLoader(self.wm_testingset, batch_size=1, shuffle=False, num_workers=0)
         print('==> Watermarked dataset has been loaded.')
     
         
@@ -119,12 +117,6 @@ class KeyNet:
             self.model.to(self.device)          
             self.criterion = nn.CrossEntropyLoss()
             self.optimizer = torch.optim.SGD(self.model.parameters(), lr=self.learning_rate,
-                        momentum=self.momentum, weight_decay=5e-4)
-            
-            # Black box watermark model, loss and optimizer
-            self.wm_black_box_model = WMPrivate().to(self.device)
-            self.wm_black_box_criterion = nn.CrossEntropyLoss()
-            self.wm_black_box_optimizer = torch.optim.SGD(self.wm_black_box_model.parameters(), lr=self.learning_rate,
                         momentum=self.momentum, weight_decay=5e-4)
             
 
@@ -781,34 +773,3 @@ class KeyNet:
         title = 'Overwriting model', filename = 'fmnist5_acc_overwrite_' + self.model_name + '_'+ str(data_fraction), save = True)
 
 
-
-
-
-
-        
-
-
-        
-        
-
-
-
-
-
-        
-
-
-                
-
-
-    
-
-
-        
-        
-
-
-
-
-        
-        
