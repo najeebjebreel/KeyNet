@@ -36,6 +36,24 @@ The hyperparameters, the training of the original task, the embedding of the wat
 ## Citation 
 If you find our work useful please cite:
 
+@Article{app11030999,
+AUTHOR = {Jebreel, Najeeb Moharram and Domingo-Ferrer, Josep and Sánchez, David and Blanco-Justicia, Alberto},
+TITLE = {KeyNet: An Asymmetric Key-Style Framework for Watermarking Deep Learning Models},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {3},
+ARTICLE-NUMBER = {999},
+URL = {https://www.mdpi.com/2076-3417/11/3/999},
+ISSN = {2076-3417},
+ABSTRACT = {Many organizations devote significant resources to building high-fidelity deep learning (DL) models. Therefore, they have a great interest in making sure the models they have trained are not appropriated by others. Embedding watermarks (WMs) in DL models is a useful means to protect the intellectual property (IP) of their owners. In this paper, we propose KeyNet, a novel watermarking framework that satisfies the main requirements for an effective and robust watermarking. In KeyNet, any sample in a WM carrier set can take more than one label based on where the owner signs it. The signature is the hashed value of the owner&rsquo;s information and her model. We leverage multi-task learning (MTL) to learn the original classification task and the watermarking task together. Another model (called the private model) is added to the original one, so that it acts as a private key. The two models are trained together to embed the WM while preserving the accuracy of the original task. To extract a WM from a marked model, we pass the predictions of the marked model on a signed sample to the private model. Then, the private model can provide the position of the signature. We perform an extensive evaluation of KeyNet&rsquo;s performance on the CIFAR10 and FMNIST5 data sets and prove its effectiveness and robustness. Empirical results show that KeyNet preserves the utility of the original task and embeds a robust WM.},
+DOI = {10.3390/app11030999}
+}
+
+
+
+
+
 ## Funding
 This research was funded by the European Commission (projects H2020-871042 “SoBigData++” and
 603 H2020-101006879 “MobiDataLab”), the Government of Catalonia (ICREA Acadèmia Prizes to J. Domingo-Ferrer
