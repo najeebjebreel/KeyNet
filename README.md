@@ -22,7 +22,7 @@ The code supports training and evaluating on [CIFAR10](https://www.cs.toronto.ed
 
 ## Pre-trained models
 
-The pretrained models can be accessed using this link: https://drive.google.com/drive/folders/1X2b3zbFpq7mkiQTCWBlyZiOle_ciqiZv?usp=sharing. 
+The pretrained models can be accessed using this link: https://drive.google.com/file/d/1P7CuPe8lHp_V44_qXalQWeqAmgr0b_o0/view?usp=sharing.
 
 ## Dependencies
 
