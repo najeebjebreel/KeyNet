@@ -1,0 +1,22 @@
+# Core ML framework
+torch>=1.6
+torchvision>=0.7
+
+# Numerical / scientific
+numpy>=1.19
+scikit-learn>=0.24
+
+# Image processing
+Pillow>=8.0
+opencv-python>=4.5
+
+# Cryptographic utilities
+hashlib; python_version < "3.9"
+
+# Visualization
+matplotlib>=3.3
+
+# Notebook utilities
+tqdm>=4.50
+ipython>=7.0
+jupyter>=1.0
